@@ -37,7 +37,7 @@
     font-family: Montserrat, sans-serif;
   }
   .container-fluid {
-    padding: 60px 50px;
+    padding: 40px 50px;
   }
   .bg-grey {
     background-color: #f6f6f6;
@@ -157,6 +157,7 @@
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
+    justify-content: center;
   }
   .img-circle-photo:hover {
     border: 1px solid rgb(212, 212, 212);
@@ -225,20 +226,22 @@
       </div>
     </nav>
 
-    <div class="jumbotron text-center">
+    <div id="#myPage" class="jumbotron text-center">
       <h1>NAPtivator</h1> 
       <p>Improving rest quality during commutes</p> 
     </div>
-
     <div id="about" class="container-fluid">
-      <div class="row" style="padding:50px">
+      <div>
+        <h1 style="text-align:center;">About</h1>
+      </div>
+      <div class="row" style="padding:30px">
         <div class="col-sm-4">
           <span class="slideanim">
             <img src="images/naptivatorfullpic.png" height="150">
           </span>
         </div>
         <div class="col-sm-8">
-            <h1>Problem Statement</h1>
+            <h2>Problem Statement</h2>
 
             <h4>For this project, we wanted to <u>explore how the design of a tangible user interface (TUI) can enhance productivity for individuals commuting long distances</u>. We focused specifically on Wellesley students and faculty members who commute frequently using the Wellesley-MIT shuttle. Riding the bus between campuses can take up to an hour each way, and passengers who try to do work during the commute can experience motion sickness.</h4>
             <h4>To solve this issue, we wanted to create a product that would improve nap quality. Being well-rested would help our target users increase productivity after their bus ride. We identified the following pain points that currently arise when napping on the bus:
@@ -254,14 +257,19 @@
           
         </div>
       </div>
-        <div class="row slideanim" style="justify-content:center; display:flex;">
-        <div class="col-sm-4">
+    </div>
+    <div id="features" class="container-fluid">
+      <div >
+        <h1 style="text-align:center">Features</h1>
+      </div>
+      <div class="row slideanim text-center" style="justify-content:center; display:flex; padding-top: 20px;">
+        <div class="col-sm-4" style="justify-content:center">
           <span><img src="images/navigation.png" width="100" height="100"></span>
           <h4>LOCATION-BASED ALARM</h4>
           <p>The NAPtivator uses GPS-location tracking to alert users when they are within range of their destination. Small haptic motors emit gentle vibrations once the user is within range.
           </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" style="justify-content:center">
           <span><img src="images/silent.png" width="100" height="100"></span>
           <h4>PERSONAL</h4>
           <p>The vibration motors are placed directly on the wearer's temples, making the alarm system personal and reducing
@@ -270,34 +278,37 @@
         </div>
       </div>
       <br><br>
-      <div class="row slideanim" style="justify-content:center; display:flex;">
-        <div class="col-sm-4">
+      <div class="row slideanim text-center" style="justify-content:center; display:flex;">
+        <div class="col-sm-4" style="justify-content:center">
           <span><img src="images/sleepingmask.png" width="150" height="150"></span>
           <h4>DISTRACTION-FREE</h4>
           <p>Our TUI is a wearable that reduces time spent on electronics. Eliminating the need to engage with a device minimizes the likelihood of getting distracted.</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" style="justify-content:center">
           <span><img src="images/nostress.png" width="150" height="150"></span>
           <h4>PROMOTES PRODUCTIVITY</h4>
           <p>Better nap quality boosts energy and increases productivity throughout the day.</p>
         </div>
-    
       </div>
     </div>
-    
+    <div class="container-fluid text-center bg-grey">
+      <h2>FINAL PROTOTYPE</h2>
+      <h3>Elizabeth, Emma, and Kelly with Naptivator on Demo Day!</h3>
+          <img src="images/groupphoto.png" class="img-circle-photo" alt="Group Photo" style="display: block; margin: 0 auto;" width="auto" height="200">
+    </div>
 
-    <!-- Container (Features Section) -->
+    <!-- Container (Features Section)
     <div id="features" class="container-fluid text-center bg-grey">
       <h2 id="quotes-header">Any quotes or features we can use?</h2>
       <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-        <!-- Indicators -->
+        Indicators
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+        </ol> -->
 
-        <!-- Wrapper for slides -->
+        <!-- Wrapper for slides
         <div class="carousel-inner" role="listbox">
           <div class="item active" style="text-align: center;">
             <h4>Elizabeth, Emma, and Kelly with Naptivator on Demo Day!</h4>
@@ -308,9 +319,9 @@
             <h4>Elizabeth, Emma, and Kelly with Naptivator on Demo Day!</h4>
 
           </div>
-        </div>
+        </div> -->
 
-        <!-- Left and right controls -->
+        <!-- Left and right controls 
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -319,12 +330,9 @@
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div> -->
 
-      
-
-    
-
+      <!--DESIGN PROCESS-->
     <div id="process" class="container-fluid">
         <h1 style="text-align:center">Design Process</h1>
       <div class="row" style="padding:50px">
@@ -336,13 +344,13 @@
         <div class="col-sm-8">
           <h2>SKETCHES</h2>
           <h4>
-            We began our ideation process by going through an extensive brainwriting process. This allowed us to come up with novel, creative ideas and inspired us to think more critically about our problem statement in the context of TUI’s. After narrowing down the scope of our project and selecting “naptivator” as our final idea, we created some rough sketches of the Naptivator headband. This helped us visualize where various electrical components would go on the headband and have a more concrete depiction of our intended user scenario. We also prompted Dall-E and Midjourney to generate images of the Naptivator headband based on our description of its functionalities and intended users. Although the drawings generated by Dall-E were a bit distorted, they inspired us to think about the wearability of the headband – for instance, the type of fabric we want to use, how much padding we should add to the headband, where we want the vibrations to be…. 
+            We began our ideation process by going through an extensive brainwriting process. This allowed us to come up with novel, creative ideas and inspired us to think more critically about our problem statement in the context of TUI’s. After narrowing down the scope of our project and selecting “naptivator” as our final idea, we created some rough sketches of the Naptivator headband. This helped us visualize where various electrical components would go on the headband and have a more concrete depiction of our intended user scenario. We also prompted Dall-E and Midjourney to generate images of the Naptivator headband based on our description of its functionalities and intended users. Although the drawings generated by Dall-E were a bit distorted, they inspired us to think about the wearability of the headband – for instance, the type of fabric we want to use, how much padding we should add to the headband, where we want the vibrations to be, etc. 
           </h4>
         </div>
       </div>
         
         
-        <div class="row" style="padding:50px">
+        <div class="row" style="padding:30px">
             
             <div class="col-sm-4">
               <span class="slideanim">
@@ -361,7 +369,7 @@
         </div>
         
         
-        <div class="row" style="padding:50px">
+        <div class="row" style="padding:30px">
             <div class="col-sm-4">
               <span class="slideanim">
                 <img src="images/highfidelity.png" height="150">
@@ -379,11 +387,18 @@ With a concrete understanding of what our desired vision for Naptivator would lo
 
     </div>
 
+
      <!--FUTURE WORK SECTION-->
-     <div id="future" class="container-fluid text-center">
-      <h1>Future Work</h1>
+     <div id="future" class="container-fluid">
+      <h1 style="text-align: center;">Future Work</h1>
       <h4>
-          There are 4 changes we would make to our project in future iterations. First, we would like to use a GPS component that would receive satellite signals indoors. Our current GPS only works outdoors and is ineffective on a bus. Another change we would make to our circuitry is add buttons/switches for different stops along the MIT-Wellesley bus route. Our current prototype is programmed to a single location but buttons would give users more flexibility depending on which stop they are getting off at. The final change we would make to the circuitry is to replace the Arduino Uno and battery with smaller components. The Uno board and battery are large and bulky, making the front of the eye mask look slightly awkward. After making these changes to the circuitry, we would like to make more headband sleeves from different fabrics and patterns, to allow users to personalize their eye masks.
+          There are 4 changes we would make to our project in future iterations. <br>
+          <ol>
+            <li>Use a GPS component that would receive satellite signals indoors. Our current GPS only works outdoors and is ineffective on a bus.</li>
+            <li>Add buttons/switches to our circuitry for different stops along the MIT-Wellesley bus route. Our current prototype is programmed to a single location but buttons would give users more flexibility depending on which stop they are getting off at.</li>
+            <li>Replace the Arduino Uno and battery with smaller components. The Uno board and battery are large and bulky, making the front of the eye mask look slightly awkward.</li>
+            <li>Make more headband sleeves from different fabrics and patterns to allow users to personalize their eye masks.</li>
+          </ol>
       </h4>
     </div>
 
@@ -398,7 +413,7 @@ With a concrete understanding of what our desired vision for Naptivator would lo
 
       <!-- Container (TEAM Section) -->
     <div id="team" class="container-fluid text-center bg-grey">
-      <h3 style="color:black">TEAM</h3>
+      <h1>TEAM</h1>
       <br>
       <div class="row">
         <div class="col-sm-4">
